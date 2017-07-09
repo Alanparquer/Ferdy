@@ -49,6 +49,7 @@ _handle = int(sys.argv[1])
 
 def get_categories():
     categories = []
+	categories.append({'title':'Inicio',              'action':'genero', 'ico':'fer'})
     categories.append({'title':'Géneros',             'action':'genero', 'ico':'gen'})
     categories.append({'title':'Temas',               'action':'tema'  , 'ico':'tem'})
     categories.append({'title':'Años',                'action':'anno'  , 'ico':'ann'})
@@ -63,6 +64,7 @@ def get_categories():
     categories.append({'title':'Últimas 100 viejas',  'action':'ultim2', 'ico':'bus'})
     categories.append({'title':'Últimas 100 HD',      'action':'ulthd',  'ico':'bus'})
     categories.append({'title':'Las 100 más vistas',  'action':'mvtas',  'ico':'bus'})
+	categories.append({'title':'Las menos vistas',    'action':'mvtas',  'ico':'bus'})
     return categories
 
 def list_categories():
