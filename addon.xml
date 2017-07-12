@@ -7,7 +7,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Cine</summary>
+    <summary>Cinematk</summary>
     <description>Cine</description>
     <disclaimer></disclaimer>
     <language></language>
